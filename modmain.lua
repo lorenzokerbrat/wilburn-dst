@@ -86,11 +86,13 @@ local TECH = GLOBAL.TECH
 -- Declaring Wilburn's own recipes as locals
 -- BEFORE adding them to the mod's new recipes.
 -- This allows me to assign their crafting tab images here as well.
-local wilburnbell_Recipe = Recipe("wilburnbell",
-    { Ingredient("pigskin", 1),
-      Ingredient("nitre", 1),
-      Ingredient("marble", 1) },
-    RECIPETABS.SURVIVAL, TECH.SCIENCE_ONE, nil, nil, nil, nil, "wilburn")
+
+-- -- Removed the bell item until it's fixed
+-- local wilburnbell_Recipe = Recipe("wilburnbell",
+--     { Ingredient("pigskin", 1),
+--       Ingredient("nitre", 1),
+--       Ingredient("marble", 1) },
+--     RECIPETABS.SURVIVAL, TECH.SCIENCE_ONE, nil, nil, nil, nil, "wilburn")
 
 local wilburnscepter_Recipe = Recipe("wilburnscepter",
     { Ingredient("goldnugget", 4),
@@ -106,13 +108,13 @@ local wilburncrown_Recipe = Recipe("wilburncrown",
 
 -- Adding them to the mod's new recipes.
 local recipes = {
-    wilburnbell_Recipe,
+    -- wilburnbell_Recipe,
     wilburnscepter_Recipe,
     wilburncrown_Recipe,
 }
 
 -- Assigning them their crafting tab images.
-wilburnbell_Recipe.atlas = "images/inventoryimages/wilburnbell.xml"
+-- wilburnbell_Recipe.atlas = "images/inventoryimages/wilburnbell.xml"
 wilburnscepter_Recipe.atlas = "images/inventoryimages/wilburnscepter.xml"
 wilburncrown_Recipe.atlas = "images/inventoryimages/wilburncrown.xml"
 
