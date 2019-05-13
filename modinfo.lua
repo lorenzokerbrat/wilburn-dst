@@ -1,7 +1,7 @@
 name = "Wilburn"
 description = "The Heir\nVersion for Don't Starve Together"
-author = "Skutchi"
-version = "0.9.8.1"
+author = "Alk (Skutchi)"
+version = "0.9.9"
 dont_starve_compatible = true
 reign_of_giants_compatible = true
 dst_compatible = true
